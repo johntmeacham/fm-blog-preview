@@ -50,11 +50,16 @@ body {
     font-size: 0.875rem;
   }
 
-  &__title {
+  &__title a {
     margin: 0.75rem 0;
     font-size: 1.25rem;
     font-weight: 800;
     color: $black-clr;
+    text-decoration: none;
+
+    &:hover {
+      color: $primary-clr;
+    }
   }
 
   &__description {

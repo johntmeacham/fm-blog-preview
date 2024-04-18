@@ -72,11 +72,15 @@ body {
   font-weight: 500;
   font-size: 0.875rem;
 }
-.review-card__title {
+.review-card__title a {
   margin: 0.75rem 0;
   font-size: 1.25rem;
   font-weight: 800;
   color: hsl(0, 0%, 7%);
+  text-decoration: none;
+}
+.review-card__title a:hover {
+  color: hsl(47, 88%, 63%);
 }
 .review-card__description {
   margin: 0.75rem 0;
